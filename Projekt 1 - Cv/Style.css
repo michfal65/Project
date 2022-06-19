@@ -1,0 +1,151 @@
+*{
+    font-family: arial;
+}
+body {  
+    font-family: Arial;
+    background-color: rgb(162, 158, 177);
+    padding: 40px 0;
+}
+
+h2{
+    font-size: 28px;
+}
+
+h1{
+   font-size: 36px;
+   margin-bottom: 10px;
+}
+
+span {
+    color:grey
+}
+
+.container {
+    box-shadow: 0 0 20px lightgray;
+    width: 960px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+img{
+    width: 155px;
+    height: 200px;
+}
+
+section,
+header{
+    font-family: Arial;
+    padding: 10px 60px;
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 60px;
+}
+
+header ul{
+    list-style: none;
+}
+
+header li {
+    margin-bottom: 5px;
+}
+
+.addresicone{
+    width: 16px;
+    height: 16px;
+    background-color: grey;
+    margin-right: 7px;
+    padding: 8px;
+    vertical-align: middle;
+}
+
+main {
+border-radius: 30%;
+}
+
+.o {border-radius: 50%;
+}
+
+.a{border-radius: 8px;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.cv-download-link {
+    border: 2px solid grey;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    display: inline-block;
+    transition: background-color 0.5s, color 0.5s;
+    box-shadow: 0 0 20px lightgray;
+}
+
+.cv-download-link:hover {
+    color: white;
+    background-color: grey;
+}
+
+.title {
+    border: 2px solid lightgrey;
+    background-color: lightgray;
+    padding: 5px 10px;
+    
+    
+}
+
+.link {
+    color:dimgray;
+    text-decoration: none;
+}
+.link:hover{
+    color: lightskyblue;
+}
+
+.cv-download-link:focus {
+    outline: none;
+    color: white;
+    background-color: grey;
+}
+
+.cv-download-link:active{
+    text-decoration: underline;
+}
+
+li {
+    margin-bottom: 15px;
+}
+.og {
+    list-style: none;
+    margin-left: 672px;
+}
+h6 {
+    font-family: arial;
+    color: gray;
+}
+.WebIcone {
+    width: 35px;
+    height: 35px;
+    margin-right: 25px;
+    
+}
+.web {
+    margin-left: 130px;
+}
+.picture {
+    padding: -1;
+    border-radius: 50%;
+}
+.picture:hover {
+    background-color: lightgrey;
+}
